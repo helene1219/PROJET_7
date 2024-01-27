@@ -1,0 +1,7 @@
+seaborn==0.13.1
+matplotlib==3.8.2
+streamlit==1.29.0
+plotly==5.18.0
+shap==0.44.0
+lightgbm==4.2.0
+
