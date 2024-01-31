@@ -80,7 +80,7 @@ def main() :
         y_pred_lgbm_proba_df=y_pred_lgbm_proba_df[y_pred_lgbm_proba_df['SK_ID_CURR']==int(chk_id)]
         prediction=y_pred_lgbm_proba_df.iat[0,1]
         
-        if y_pred_lgbm_proba_df.iat[0,1]*100>50 : 
+        if y_pred_lgbm_proba_df.iat[0,1]*100>10 : 
             statut="Client risqué" 
         else :
             statut="Client non risqué"

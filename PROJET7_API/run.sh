@@ -1,1 +1,1 @@
-streamlit run PROJET7_API/app1.py
+streamlit run app2.py
